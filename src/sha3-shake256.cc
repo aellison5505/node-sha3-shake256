@@ -65,6 +65,22 @@ Napi::Value release(const Napi::CallbackInfo& info) {
 
 }
 
+Napi::Value syncShake256(const Napi::CallbackInfo& info) {
+
+  Napi::Env env = info.Env();
+
+    
+    Napi::Buffer<uint8_t> out = info[0].As<Napi::Buffer<uint8_t>>();
+
+    
+    Napi::Buffer<uint8_t> in = info[1].As<Napi::Buffer<uint8_t>>();
+
+    shake256(out.Data(), out.Length(), in.Data(), in.Length());
+
+    return Napi::Number::New(info.Env(), 0);
+
+}
+
 
 Napi::Object Init(Napi::Env env, Napi::Object exports) {
   exports.Set(Napi::String::New(env, "init"),
@@ -77,6 +93,8 @@ Napi::Object Init(Napi::Env env, Napi::Object exports) {
               Napi::Function::New(env, squeeze));
   exports.Set(Napi::String::New(env, "release"),
               Napi::Function::New(env, release));
+  exports.Set(Napi::String::New(env, "syncShake256"),
+              Napi::Function::New(env, syncShake256));
   return exports;
 }
 
