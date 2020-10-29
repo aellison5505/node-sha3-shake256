@@ -7,7 +7,12 @@
     "test": "mocha",
     "build": "tsc",
     "tsc-w": "tsc -w",
-    "build-docs": "touch ./readme.md && rm ./readme.md && npx typedoc --toc --mode modules --theme markdown --out /mnt/d/dev/node-sha3-shake256/docs --readme /mnt/d/dev/node-sha3-shake256/readmeHeader/readhead.md /mnt/d/dev/node-sha3-shake256/src && npx concat-md --decrease-title-levels ./docs > README.md"
+    "build-docs": "touch ./readme.md && rm ./readme.md && npx typedoc --toc --mode modules --theme markdown --out /mnt/d/dev/node-sha3-shake256/docs --readme /mnt/d/dev/node-sha3-shake256/readmeHeader/readhead.md /mnt/d/dev/node-sha3-shake256/src && npx concat-md --decrease-title-levels ./docs > README.md",
+    "preinstall": "npm run cmake-clean",
+    "postinstall": "npm run test",
+    "cmake-clean": "npx cmake-js clean && node scripts/clean.js",
+    "cmake-compile": "npx cmake-js compile && node scripts/move.js",
+    "install": "npm run cmake-compile"
   },
   "repository": {
     "type": "git",

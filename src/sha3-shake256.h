@@ -13,7 +13,7 @@ extern "C" {
 
 #include <napi.h>
 
-Napi::Value init(const Napi::CallbackInfo& info);
+Napi::Value initState(const Napi::CallbackInfo& info);
 
 Napi::Value adsorb(const Napi::CallbackInfo& info);
 
@@ -21,7 +21,7 @@ Napi::Value finalize(const Napi::CallbackInfo& info);
 
 Napi::Value squeeze(const Napi::CallbackInfo& info);
 
-Napi::Value release(const Napi::CallbackInfo& info);
+Napi::Value releaseState(const Napi::CallbackInfo& info);
 
 Napi::Value syncShake256(const Napi::CallbackInfo& info);
 

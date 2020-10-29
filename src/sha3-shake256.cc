@@ -1,7 +1,7 @@
 #include "sha3-shake256.h"
 
 
-Napi::Value init(const Napi::CallbackInfo& info) {
+Napi::Value initState(const Napi::CallbackInfo& info) {
 
   Napi::Env env = info.Env();
 
@@ -53,7 +53,7 @@ Napi::Value squeeze(const Napi::CallbackInfo& info) {
 
 }
 
-Napi::Value release(const Napi::CallbackInfo& info) {
+Napi::Value releaseState(const Napi::CallbackInfo& info) {
 
   Napi::Env env = info.Env();
 
@@ -83,16 +83,16 @@ Napi::Value syncShake256(const Napi::CallbackInfo& info) {
 
 
 Napi::Object Init(Napi::Env env, Napi::Object exports) {
-  exports.Set(Napi::String::New(env, "init"),
-              Napi::Function::New(env, init));
+  exports.Set(Napi::String::New(env, "initState"),
+              Napi::Function::New(env, initState));
   exports.Set(Napi::String::New(env, "adsorb"),
               Napi::Function::New(env, adsorb));
   exports.Set(Napi::String::New(env, "finalize"),
               Napi::Function::New(env, finalize));
   exports.Set(Napi::String::New(env, "squeeze"),
               Napi::Function::New(env, squeeze));
-  exports.Set(Napi::String::New(env, "release"),
-              Napi::Function::New(env, release));
+  exports.Set(Napi::String::New(env, "releaseState"),
+              Napi::Function::New(env, releaseState));
   exports.Set(Napi::String::New(env, "syncShake256"),
               Napi::Function::New(env, syncShake256));
   return exports;
