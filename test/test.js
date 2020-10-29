@@ -87,7 +87,6 @@ describe('node-sha3-shake256', () => {
                 squeeze(this.retinc, this.state);
             });
             it('should return correct hash', () => {
-              //  console.log(this.retinc.toString('hex'));
                 expect(this.ret.toString('hex')).to.be
                 .equal("51bdaccf2d521b71a0c548eea62033ece1b0e720ae7b904bb640a8199b36ed84");
             });
@@ -104,7 +103,9 @@ describe('node-sha3-shake256', () => {
         describe('Shake256Stream', () => {
             before(async () => {
                this.writeStream =  Readable.from(this.strBuff);
-                this.streamHash = new Shake256Stream();
+                this.streamHash = new Shake256Stream(32, {
+                    destroy: true
+                });
                 this.streamBuff = [];
                 this.streamHash.on("readable", () => {
                     let data;
