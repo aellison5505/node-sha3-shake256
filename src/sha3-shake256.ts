@@ -1,6 +1,12 @@
 import { Transform, TransformOptions, TransformCallback } from 'stream';
 import { initState, releaseState, finalize, adsorb, squeeze, syncShake256 } from './index'
 
+export function shake256(input: Buffer, hashLength: number = 32): Buffer {
+    let reBuffer = Buffer.alloc(hashLength, 0);
+    syncShake256(reBuffer, input);
+    return reBuffer;
+}
+
 export async function asyncShake256(input: Buffer, hashLength: number = 32): Promise<Buffer> {
     return new Promise<Buffer>((ret) => {
         let reBuffer = Buffer.alloc(hashLength, 0);
