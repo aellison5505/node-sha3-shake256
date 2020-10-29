@@ -43,9 +43,9 @@ Napi::Value squeeze(const Napi::CallbackInfo& info) {
 
   Napi::Env env = info.Env();
 
-    Napi::Buffer<shake256incctx> s = info[0].As<Napi::Buffer<shake256incctx>>();
+    Napi::Buffer<shake256incctx> s = info[1].As<Napi::Buffer<shake256incctx>>();
 
-    Napi::Buffer<uint8_t> out = info[1].As<Napi::Buffer<uint8_t>>();
+    Napi::Buffer<uint8_t> out = info[0].As<Napi::Buffer<uint8_t>>();
 
     shake256_inc_squeeze(out.Data(), out.Length(), s.Data());
 
