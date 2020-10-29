@@ -1,6 +1,6 @@
 {
   "name": "sha3-shake256",
-  "version": "0.8.1",
+  "version": "0.8.2",
   "description": "fips202 Sha3 Shake256 hash from buffer or stream.",
   "main": "lib/index.js",
   "scripts": {
