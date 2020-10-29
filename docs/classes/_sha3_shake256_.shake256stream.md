@@ -1,20 +1,6 @@
+**[sha3-shake256](../README.md)**
 
-<a name="readmemd"></a>
-
-**[sha3-shake256](#readmemd)**
-
-> [Globals](#globalsmd)
-
-# node-sha3-shake256
-[![Build Status](https://travis-ci.com/aellison5505/node-sha3-shake256.svg?branch=main)](https://travis-ci.com/aellison5505/node-sha3-shake256)
-Fips202 Sha3 Shake256 hash from buffer or stream.
-
-
-<a name="classes_sha3_shake256_shake256streammd"></a>
-
-**[sha3-shake256](#readmemd)**
-
-> [Globals](#globalsmd) / ["sha3-shake256"](#modules_sha3_shake256_md) / Shake256Stream
+> [Globals](../globals.md) / ["sha3-shake256"](../modules/_sha3_shake256_.md) / Shake256Stream
 
 # Class: Shake256Stream
 
@@ -36,78 +22,78 @@ The read data is the hash.
 
 ### Constructors
 
-* [constructor](#constructor)
+* [constructor](_sha3_shake256_.shake256stream.md#constructor)
 
 ### Properties
 
-* [\_initState](#_initstate)
-* [destroyed](#destroyed)
-* [hashLength](#hashlength)
-* [readable](#readable)
-* [readableEncoding](#readableencoding)
-* [readableEnded](#readableended)
-* [readableFlowing](#readableflowing)
-* [readableHighWaterMark](#readablehighwatermark)
-* [readableLength](#readablelength)
-* [readableObjectMode](#readableobjectmode)
-* [writable](#writable)
-* [writableCorked](#writablecorked)
-* [writableEnded](#writableended)
-* [writableFinished](#writablefinished)
-* [writableHighWaterMark](#writablehighwatermark)
-* [writableLength](#writablelength)
-* [writableObjectMode](#writableobjectmode)
+* [\_initState](_sha3_shake256_.shake256stream.md#_initstate)
+* [destroyed](_sha3_shake256_.shake256stream.md#destroyed)
+* [hashLength](_sha3_shake256_.shake256stream.md#hashlength)
+* [readable](_sha3_shake256_.shake256stream.md#readable)
+* [readableEncoding](_sha3_shake256_.shake256stream.md#readableencoding)
+* [readableEnded](_sha3_shake256_.shake256stream.md#readableended)
+* [readableFlowing](_sha3_shake256_.shake256stream.md#readableflowing)
+* [readableHighWaterMark](_sha3_shake256_.shake256stream.md#readablehighwatermark)
+* [readableLength](_sha3_shake256_.shake256stream.md#readablelength)
+* [readableObjectMode](_sha3_shake256_.shake256stream.md#readableobjectmode)
+* [writable](_sha3_shake256_.shake256stream.md#writable)
+* [writableCorked](_sha3_shake256_.shake256stream.md#writablecorked)
+* [writableEnded](_sha3_shake256_.shake256stream.md#writableended)
+* [writableFinished](_sha3_shake256_.shake256stream.md#writablefinished)
+* [writableHighWaterMark](_sha3_shake256_.shake256stream.md#writablehighwatermark)
+* [writableLength](_sha3_shake256_.shake256stream.md#writablelength)
+* [writableObjectMode](_sha3_shake256_.shake256stream.md#writableobjectmode)
 
 ### Methods
 
 * [[Symbol.asyncIterator]](_sha3_shake256_.shake256stream.md#[symbol.asynciterator])
-* [\_clearState](#_clearstate)
-* [\_destroy](#_destroy)
-* [\_final](#_final)
-* [\_flush](#_flush)
-* [\_init](#_init)
-* [\_read](#_read)
-* [\_transform](#_transform)
-* [\_write](#_write)
-* [\_writev](#_writev)
-* [addListener](#addlistener)
-* [cork](#cork)
-* [destroy](#destroy)
-* [emit](#emit)
-* [end](#end)
-* [eventNames](#eventnames)
-* [getMaxListeners](#getmaxlisteners)
-* [isPaused](#ispaused)
-* [listenerCount](#listenercount)
-* [listeners](#listeners)
-* [off](#off)
-* [on](#on)
-* [once](#once)
-* [pause](#pause)
-* [pipe](#pipe)
-* [prependListener](#prependlistener)
-* [prependOnceListener](#prependoncelistener)
-* [push](#push)
-* [rawListeners](#rawlisteners)
-* [read](#read)
-* [removeAllListeners](#removealllisteners)
-* [removeListener](#removelistener)
-* [resume](#resume)
-* [setDefaultEncoding](#setdefaultencoding)
-* [setEncoding](#setencoding)
-* [setMaxListeners](#setmaxlisteners)
-* [uncork](#uncork)
-* [unpipe](#unpipe)
-* [unshift](#unshift)
-* [wrap](#wrap)
-* [write](#write)
-* [from](#from)
+* [\_clearState](_sha3_shake256_.shake256stream.md#_clearstate)
+* [\_destroy](_sha3_shake256_.shake256stream.md#_destroy)
+* [\_final](_sha3_shake256_.shake256stream.md#_final)
+* [\_flush](_sha3_shake256_.shake256stream.md#_flush)
+* [\_init](_sha3_shake256_.shake256stream.md#_init)
+* [\_read](_sha3_shake256_.shake256stream.md#_read)
+* [\_transform](_sha3_shake256_.shake256stream.md#_transform)
+* [\_write](_sha3_shake256_.shake256stream.md#_write)
+* [\_writev](_sha3_shake256_.shake256stream.md#_writev)
+* [addListener](_sha3_shake256_.shake256stream.md#addlistener)
+* [cork](_sha3_shake256_.shake256stream.md#cork)
+* [destroy](_sha3_shake256_.shake256stream.md#destroy)
+* [emit](_sha3_shake256_.shake256stream.md#emit)
+* [end](_sha3_shake256_.shake256stream.md#end)
+* [eventNames](_sha3_shake256_.shake256stream.md#eventnames)
+* [getMaxListeners](_sha3_shake256_.shake256stream.md#getmaxlisteners)
+* [isPaused](_sha3_shake256_.shake256stream.md#ispaused)
+* [listenerCount](_sha3_shake256_.shake256stream.md#listenercount)
+* [listeners](_sha3_shake256_.shake256stream.md#listeners)
+* [off](_sha3_shake256_.shake256stream.md#off)
+* [on](_sha3_shake256_.shake256stream.md#on)
+* [once](_sha3_shake256_.shake256stream.md#once)
+* [pause](_sha3_shake256_.shake256stream.md#pause)
+* [pipe](_sha3_shake256_.shake256stream.md#pipe)
+* [prependListener](_sha3_shake256_.shake256stream.md#prependlistener)
+* [prependOnceListener](_sha3_shake256_.shake256stream.md#prependoncelistener)
+* [push](_sha3_shake256_.shake256stream.md#push)
+* [rawListeners](_sha3_shake256_.shake256stream.md#rawlisteners)
+* [read](_sha3_shake256_.shake256stream.md#read)
+* [removeAllListeners](_sha3_shake256_.shake256stream.md#removealllisteners)
+* [removeListener](_sha3_shake256_.shake256stream.md#removelistener)
+* [resume](_sha3_shake256_.shake256stream.md#resume)
+* [setDefaultEncoding](_sha3_shake256_.shake256stream.md#setdefaultencoding)
+* [setEncoding](_sha3_shake256_.shake256stream.md#setencoding)
+* [setMaxListeners](_sha3_shake256_.shake256stream.md#setmaxlisteners)
+* [uncork](_sha3_shake256_.shake256stream.md#uncork)
+* [unpipe](_sha3_shake256_.shake256stream.md#unpipe)
+* [unshift](_sha3_shake256_.shake256stream.md#unshift)
+* [wrap](_sha3_shake256_.shake256stream.md#wrap)
+* [write](_sha3_shake256_.shake256stream.md#write)
+* [from](_sha3_shake256_.shake256stream.md#from)
 
 ## Constructors
 
 ### constructor
 
-\+ **new Shake256Stream**(`hashLength?`: number, `options?`: TransformOptions): [Shake256Stream](#classes_sha3_shake256_shake256streammd)
+\+ **new Shake256Stream**(`hashLength?`: number, `options?`: TransformOptions): [Shake256Stream](_sha3_shake256_.shake256stream.md)
 
 *Overrides void*
 
@@ -125,7 +111,7 @@ Name | Type | Default value | Description |
 `hashLength` | number | 32 | length of returned hash |
 `options?` | TransformOptions | - | Nodejs stream options. |
 
-**Returns:** [Shake256Stream](#classes_sha3_shake256_shake256streammd)
+**Returns:** [Shake256Stream](_sha3_shake256_.shake256stream.md)
 
 ## Properties
 
@@ -141,7 +127,7 @@ ___
 
 •  **destroyed**: boolean
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[destroyed](#destroyed)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[destroyed](_sha3_shake256_.shake256stream.md#destroyed)*
 
 *Defined in node_modules/@types/node/stream.d.ts:35*
 
@@ -161,7 +147,7 @@ ___
 
 •  **readable**: boolean
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[readable](#readable)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[readable](_sha3_shake256_.shake256stream.md#readable)*
 
 *Defined in node_modules/@types/node/stream.d.ts:28*
 
@@ -171,7 +157,7 @@ ___
 
 • `Readonly` **readableEncoding**: BufferEncoding \| null
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[readableEncoding](#readableencoding)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[readableEncoding](_sha3_shake256_.shake256stream.md#readableencoding)*
 
 *Defined in node_modules/@types/node/stream.d.ts:29*
 
@@ -181,7 +167,7 @@ ___
 
 • `Readonly` **readableEnded**: boolean
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[readableEnded](#readableended)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[readableEnded](_sha3_shake256_.shake256stream.md#readableended)*
 
 *Defined in node_modules/@types/node/stream.d.ts:30*
 
@@ -191,7 +177,7 @@ ___
 
 • `Readonly` **readableFlowing**: boolean \| null
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[readableFlowing](#readableflowing)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[readableFlowing](_sha3_shake256_.shake256stream.md#readableflowing)*
 
 *Defined in node_modules/@types/node/stream.d.ts:31*
 
@@ -201,7 +187,7 @@ ___
 
 • `Readonly` **readableHighWaterMark**: number
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[readableHighWaterMark](#readablehighwatermark)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[readableHighWaterMark](_sha3_shake256_.shake256stream.md#readablehighwatermark)*
 
 *Defined in node_modules/@types/node/stream.d.ts:32*
 
@@ -211,7 +197,7 @@ ___
 
 • `Readonly` **readableLength**: number
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[readableLength](#readablelength)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[readableLength](_sha3_shake256_.shake256stream.md#readablelength)*
 
 *Defined in node_modules/@types/node/stream.d.ts:33*
 
@@ -221,7 +207,7 @@ ___
 
 • `Readonly` **readableObjectMode**: boolean
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[readableObjectMode](#readableobjectmode)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[readableObjectMode](_sha3_shake256_.shake256stream.md#readableobjectmode)*
 
 *Defined in node_modules/@types/node/stream.d.ts:34*
 
@@ -231,7 +217,7 @@ ___
 
 • `Readonly` **writable**: boolean
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[writable](#writable)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[writable](_sha3_shake256_.shake256stream.md#writable)*
 
 *Defined in node_modules/@types/node/stream.d.ts:247*
 
@@ -241,7 +227,7 @@ ___
 
 • `Readonly` **writableCorked**: number
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[writableCorked](#writablecorked)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[writableCorked](_sha3_shake256_.shake256stream.md#writablecorked)*
 
 *Defined in node_modules/@types/node/stream.d.ts:253*
 
@@ -251,7 +237,7 @@ ___
 
 • `Readonly` **writableEnded**: boolean
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[writableEnded](#writableended)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[writableEnded](_sha3_shake256_.shake256stream.md#writableended)*
 
 *Defined in node_modules/@types/node/stream.d.ts:248*
 
@@ -261,7 +247,7 @@ ___
 
 • `Readonly` **writableFinished**: boolean
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[writableFinished](#writablefinished)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[writableFinished](_sha3_shake256_.shake256stream.md#writablefinished)*
 
 *Defined in node_modules/@types/node/stream.d.ts:249*
 
@@ -271,7 +257,7 @@ ___
 
 • `Readonly` **writableHighWaterMark**: number
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[writableHighWaterMark](#writablehighwatermark)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[writableHighWaterMark](_sha3_shake256_.shake256stream.md#writablehighwatermark)*
 
 *Defined in node_modules/@types/node/stream.d.ts:250*
 
@@ -281,7 +267,7 @@ ___
 
 • `Readonly` **writableLength**: number
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[writableLength](#writablelength)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[writableLength](_sha3_shake256_.shake256stream.md#writablelength)*
 
 *Defined in node_modules/@types/node/stream.d.ts:251*
 
@@ -291,7 +277,7 @@ ___
 
 • `Readonly` **writableObjectMode**: boolean
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[writableObjectMode](#writableobjectmode)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[writableObjectMode](_sha3_shake256_.shake256stream.md#writableobjectmode)*
 
 *Defined in node_modules/@types/node/stream.d.ts:252*
 
@@ -301,7 +287,7 @@ ___
 
 ▸ **[Symbol.asyncIterator]**(): AsyncIterableIterator\<any>
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[[Symbol.asyncIterator]](_sha3_shake256_.shake256stream.md#[symbol.asynciterator])*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[[Symbol.asyncIterator]](_sha3_shake256_.shake256stream.md#[symbol.asynciterator])*
 
 *Defined in node_modules/@types/node/stream.d.ts:124*
 
@@ -353,7 +339,7 @@ ___
 
 ▸ **_flush**(`callback`: TransformCallback): void
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[_flush](#_flush)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[_flush](_sha3_shake256_.shake256stream.md#_flush)*
 
 *Defined in node_modules/@types/node/stream.d.ts:284*
 
@@ -381,7 +367,7 @@ ___
 
 ▸ **_read**(`size`: number): void
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[_read](#_read)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[_read](_sha3_shake256_.shake256stream.md#_read)*
 
 *Defined in node_modules/@types/node/stream.d.ts:37*
 
@@ -419,7 +405,7 @@ ___
 
 ▸ **_write**(`chunk`: any, `encoding`: BufferEncoding, `callback`: (error?: Error \| null) => void): void
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[_write](#_write)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[_write](_sha3_shake256_.shake256stream.md#_write)*
 
 *Defined in node_modules/@types/node/stream.d.ts:255*
 
@@ -439,7 +425,7 @@ ___
 
 ▸ `Optional`**_writev**(`chunks`: Array\<{ chunk: any ; encoding: BufferEncoding  }>, `callback`: (error?: Error \| null) => void): void
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[_writev](#_writev)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[_writev](_sha3_shake256_.shake256stream.md#_writev)*
 
 *Defined in node_modules/@types/node/stream.d.ts:256*
 
@@ -458,7 +444,7 @@ ___
 
 ▸ **addListener**(`event`: \"close\", `listener`: () => void): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[addListener](#addlistener)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[addListener](_sha3_shake256_.shake256stream.md#addlistener)*
 
 *Overrides void*
 
@@ -485,7 +471,7 @@ Name | Type |
 
 ▸ **addListener**(`event`: \"data\", `listener`: (chunk: any) => void): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[addListener](#addlistener)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[addListener](_sha3_shake256_.shake256stream.md#addlistener)*
 
 *Overrides void*
 
@@ -502,7 +488,7 @@ Name | Type |
 
 ▸ **addListener**(`event`: \"end\", `listener`: () => void): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[addListener](#addlistener)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[addListener](_sha3_shake256_.shake256stream.md#addlistener)*
 
 *Overrides void*
 
@@ -519,7 +505,7 @@ Name | Type |
 
 ▸ **addListener**(`event`: \"error\", `listener`: (err: Error) => void): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[addListener](#addlistener)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[addListener](_sha3_shake256_.shake256stream.md#addlistener)*
 
 *Overrides void*
 
@@ -536,7 +522,7 @@ Name | Type |
 
 ▸ **addListener**(`event`: \"pause\", `listener`: () => void): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[addListener](#addlistener)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[addListener](_sha3_shake256_.shake256stream.md#addlistener)*
 
 *Overrides void*
 
@@ -553,7 +539,7 @@ Name | Type |
 
 ▸ **addListener**(`event`: \"readable\", `listener`: () => void): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[addListener](#addlistener)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[addListener](_sha3_shake256_.shake256stream.md#addlistener)*
 
 *Overrides void*
 
@@ -570,7 +556,7 @@ Name | Type |
 
 ▸ **addListener**(`event`: \"resume\", `listener`: () => void): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[addListener](#addlistener)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[addListener](_sha3_shake256_.shake256stream.md#addlistener)*
 
 *Overrides void*
 
@@ -587,7 +573,7 @@ Name | Type |
 
 ▸ **addListener**(`event`: string \| symbol, `listener`: (...args: any[]) => void): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[addListener](#addlistener)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[addListener](_sha3_shake256_.shake256stream.md#addlistener)*
 
 *Overrides void*
 
@@ -608,7 +594,7 @@ ___
 
 ▸ **cork**(): void
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[cork](#cork)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[cork](_sha3_shake256_.shake256stream.md#cork)*
 
 *Defined in node_modules/@types/node/stream.d.ts:265*
 
@@ -620,7 +606,7 @@ ___
 
 ▸ **destroy**(`error?`: Error): void
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[destroy](#destroy)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[destroy](_sha3_shake256_.shake256stream.md#destroy)*
 
 *Defined in node_modules/@types/node/stream.d.ts:48*
 
@@ -638,7 +624,7 @@ ___
 
 ▸ **emit**(`event`: \"close\"): boolean
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[emit](#emit)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[emit](_sha3_shake256_.shake256stream.md#emit)*
 
 *Overrides void*
 
@@ -654,7 +640,7 @@ Name | Type |
 
 ▸ **emit**(`event`: \"data\", `chunk`: any): boolean
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[emit](#emit)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[emit](_sha3_shake256_.shake256stream.md#emit)*
 
 *Overrides void*
 
@@ -671,7 +657,7 @@ Name | Type |
 
 ▸ **emit**(`event`: \"end\"): boolean
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[emit](#emit)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[emit](_sha3_shake256_.shake256stream.md#emit)*
 
 *Overrides void*
 
@@ -687,7 +673,7 @@ Name | Type |
 
 ▸ **emit**(`event`: \"error\", `err`: Error): boolean
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[emit](#emit)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[emit](_sha3_shake256_.shake256stream.md#emit)*
 
 *Overrides void*
 
@@ -704,7 +690,7 @@ Name | Type |
 
 ▸ **emit**(`event`: \"pause\"): boolean
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[emit](#emit)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[emit](_sha3_shake256_.shake256stream.md#emit)*
 
 *Overrides void*
 
@@ -720,7 +706,7 @@ Name | Type |
 
 ▸ **emit**(`event`: \"readable\"): boolean
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[emit](#emit)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[emit](_sha3_shake256_.shake256stream.md#emit)*
 
 *Overrides void*
 
@@ -736,7 +722,7 @@ Name | Type |
 
 ▸ **emit**(`event`: \"resume\"): boolean
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[emit](#emit)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[emit](_sha3_shake256_.shake256stream.md#emit)*
 
 *Overrides void*
 
@@ -752,7 +738,7 @@ Name | Type |
 
 ▸ **emit**(`event`: string \| symbol, ...`args`: any[]): boolean
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[emit](#emit)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[emit](_sha3_shake256_.shake256stream.md#emit)*
 
 *Overrides void*
 
@@ -773,7 +759,7 @@ ___
 
 ▸ **end**(`cb?`: undefined \| () => void): void
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[end](#end)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[end](_sha3_shake256_.shake256stream.md#end)*
 
 *Defined in node_modules/@types/node/stream.d.ts:262*
 
@@ -787,7 +773,7 @@ Name | Type |
 
 ▸ **end**(`chunk`: any, `cb?`: undefined \| () => void): void
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[end](#end)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[end](_sha3_shake256_.shake256stream.md#end)*
 
 *Defined in node_modules/@types/node/stream.d.ts:263*
 
@@ -802,7 +788,7 @@ Name | Type |
 
 ▸ **end**(`chunk`: any, `encoding?`: BufferEncoding, `cb?`: undefined \| () => void): void
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[end](#end)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[end](_sha3_shake256_.shake256stream.md#end)*
 
 *Defined in node_modules/@types/node/stream.d.ts:264*
 
@@ -822,7 +808,7 @@ ___
 
 ▸ **eventNames**(): Array\<string \| symbol>
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[eventNames](#eventnames)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[eventNames](_sha3_shake256_.shake256stream.md#eventnames)*
 
 *Defined in node_modules/@types/node/events.d.ts:77*
 
@@ -834,7 +820,7 @@ ___
 
 ▸ **getMaxListeners**(): number
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[getMaxListeners](#getmaxlisteners)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[getMaxListeners](_sha3_shake256_.shake256stream.md#getmaxlisteners)*
 
 *Defined in node_modules/@types/node/events.d.ts:69*
 
@@ -846,7 +832,7 @@ ___
 
 ▸ **isPaused**(): boolean
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[isPaused](#ispaused)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[isPaused](_sha3_shake256_.shake256stream.md#ispaused)*
 
 *Defined in node_modules/@types/node/stream.d.ts:42*
 
@@ -858,7 +844,7 @@ ___
 
 ▸ **listenerCount**(`event`: string \| symbol): number
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[listenerCount](#listenercount)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[listenerCount](_sha3_shake256_.shake256stream.md#listenercount)*
 
 *Defined in node_modules/@types/node/events.d.ts:73*
 
@@ -876,7 +862,7 @@ ___
 
 ▸ **listeners**(`event`: string \| symbol): Function[]
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[listeners](#listeners)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[listeners](_sha3_shake256_.shake256stream.md#listeners)*
 
 *Defined in node_modules/@types/node/events.d.ts:70*
 
@@ -894,7 +880,7 @@ ___
 
 ▸ **off**(`event`: string \| symbol, `listener`: (...args: any[]) => void): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[off](#off)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[off](_sha3_shake256_.shake256stream.md#off)*
 
 *Defined in node_modules/@types/node/events.d.ts:66*
 
@@ -913,7 +899,7 @@ ___
 
 ▸ **on**(`event`: \"close\", `listener`: () => void): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[on](#on)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[on](_sha3_shake256_.shake256stream.md#on)*
 
 *Overrides void*
 
@@ -930,7 +916,7 @@ Name | Type |
 
 ▸ **on**(`event`: \"data\", `listener`: (chunk: any) => void): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[on](#on)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[on](_sha3_shake256_.shake256stream.md#on)*
 
 *Overrides void*
 
@@ -947,7 +933,7 @@ Name | Type |
 
 ▸ **on**(`event`: \"end\", `listener`: () => void): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[on](#on)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[on](_sha3_shake256_.shake256stream.md#on)*
 
 *Overrides void*
 
@@ -964,7 +950,7 @@ Name | Type |
 
 ▸ **on**(`event`: \"error\", `listener`: (err: Error) => void): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[on](#on)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[on](_sha3_shake256_.shake256stream.md#on)*
 
 *Overrides void*
 
@@ -981,7 +967,7 @@ Name | Type |
 
 ▸ **on**(`event`: \"pause\", `listener`: () => void): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[on](#on)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[on](_sha3_shake256_.shake256stream.md#on)*
 
 *Overrides void*
 
@@ -998,7 +984,7 @@ Name | Type |
 
 ▸ **on**(`event`: \"readable\", `listener`: () => void): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[on](#on)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[on](_sha3_shake256_.shake256stream.md#on)*
 
 *Overrides void*
 
@@ -1015,7 +1001,7 @@ Name | Type |
 
 ▸ **on**(`event`: \"resume\", `listener`: () => void): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[on](#on)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[on](_sha3_shake256_.shake256stream.md#on)*
 
 *Overrides void*
 
@@ -1032,7 +1018,7 @@ Name | Type |
 
 ▸ **on**(`event`: string \| symbol, `listener`: (...args: any[]) => void): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[on](#on)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[on](_sha3_shake256_.shake256stream.md#on)*
 
 *Overrides void*
 
@@ -1053,7 +1039,7 @@ ___
 
 ▸ **once**(`event`: \"close\", `listener`: () => void): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[once](#once)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[once](_sha3_shake256_.shake256stream.md#once)*
 
 *Overrides void*
 
@@ -1070,7 +1056,7 @@ Name | Type |
 
 ▸ **once**(`event`: \"data\", `listener`: (chunk: any) => void): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[once](#once)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[once](_sha3_shake256_.shake256stream.md#once)*
 
 *Overrides void*
 
@@ -1087,7 +1073,7 @@ Name | Type |
 
 ▸ **once**(`event`: \"end\", `listener`: () => void): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[once](#once)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[once](_sha3_shake256_.shake256stream.md#once)*
 
 *Overrides void*
 
@@ -1104,7 +1090,7 @@ Name | Type |
 
 ▸ **once**(`event`: \"error\", `listener`: (err: Error) => void): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[once](#once)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[once](_sha3_shake256_.shake256stream.md#once)*
 
 *Overrides void*
 
@@ -1121,7 +1107,7 @@ Name | Type |
 
 ▸ **once**(`event`: \"pause\", `listener`: () => void): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[once](#once)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[once](_sha3_shake256_.shake256stream.md#once)*
 
 *Overrides void*
 
@@ -1138,7 +1124,7 @@ Name | Type |
 
 ▸ **once**(`event`: \"readable\", `listener`: () => void): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[once](#once)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[once](_sha3_shake256_.shake256stream.md#once)*
 
 *Overrides void*
 
@@ -1155,7 +1141,7 @@ Name | Type |
 
 ▸ **once**(`event`: \"resume\", `listener`: () => void): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[once](#once)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[once](_sha3_shake256_.shake256stream.md#once)*
 
 *Overrides void*
 
@@ -1172,7 +1158,7 @@ Name | Type |
 
 ▸ **once**(`event`: string \| symbol, `listener`: (...args: any[]) => void): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[once](#once)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[once](_sha3_shake256_.shake256stream.md#once)*
 
 *Overrides void*
 
@@ -1193,7 +1179,7 @@ ___
 
 ▸ **pause**(): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[pause](#pause)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[pause](_sha3_shake256_.shake256stream.md#pause)*
 
 *Defined in node_modules/@types/node/stream.d.ts:40*
 
@@ -1205,7 +1191,7 @@ ___
 
 ▸ **pipe**\<T>(`destination`: T, `options?`: undefined \| { end?: undefined \| false \| true  }): T
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[pipe](#pipe)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[pipe](_sha3_shake256_.shake256stream.md#pipe)*
 
 *Defined in node_modules/@types/node/stream.d.ts:5*
 
@@ -1230,7 +1216,7 @@ ___
 
 ▸ **prependListener**(`event`: \"close\", `listener`: () => void): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[prependListener](#prependlistener)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[prependListener](_sha3_shake256_.shake256stream.md#prependlistener)*
 
 *Overrides void*
 
@@ -1247,7 +1233,7 @@ Name | Type |
 
 ▸ **prependListener**(`event`: \"data\", `listener`: (chunk: any) => void): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[prependListener](#prependlistener)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[prependListener](_sha3_shake256_.shake256stream.md#prependlistener)*
 
 *Overrides void*
 
@@ -1264,7 +1250,7 @@ Name | Type |
 
 ▸ **prependListener**(`event`: \"end\", `listener`: () => void): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[prependListener](#prependlistener)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[prependListener](_sha3_shake256_.shake256stream.md#prependlistener)*
 
 *Overrides void*
 
@@ -1281,7 +1267,7 @@ Name | Type |
 
 ▸ **prependListener**(`event`: \"error\", `listener`: (err: Error) => void): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[prependListener](#prependlistener)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[prependListener](_sha3_shake256_.shake256stream.md#prependlistener)*
 
 *Overrides void*
 
@@ -1298,7 +1284,7 @@ Name | Type |
 
 ▸ **prependListener**(`event`: \"pause\", `listener`: () => void): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[prependListener](#prependlistener)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[prependListener](_sha3_shake256_.shake256stream.md#prependlistener)*
 
 *Overrides void*
 
@@ -1315,7 +1301,7 @@ Name | Type |
 
 ▸ **prependListener**(`event`: \"readable\", `listener`: () => void): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[prependListener](#prependlistener)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[prependListener](_sha3_shake256_.shake256stream.md#prependlistener)*
 
 *Overrides void*
 
@@ -1332,7 +1318,7 @@ Name | Type |
 
 ▸ **prependListener**(`event`: \"resume\", `listener`: () => void): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[prependListener](#prependlistener)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[prependListener](_sha3_shake256_.shake256stream.md#prependlistener)*
 
 *Overrides void*
 
@@ -1349,7 +1335,7 @@ Name | Type |
 
 ▸ **prependListener**(`event`: string \| symbol, `listener`: (...args: any[]) => void): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[prependListener](#prependlistener)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[prependListener](_sha3_shake256_.shake256stream.md#prependlistener)*
 
 *Overrides void*
 
@@ -1370,7 +1356,7 @@ ___
 
 ▸ **prependOnceListener**(`event`: \"close\", `listener`: () => void): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[prependOnceListener](#prependoncelistener)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[prependOnceListener](_sha3_shake256_.shake256stream.md#prependoncelistener)*
 
 *Overrides void*
 
@@ -1387,7 +1373,7 @@ Name | Type |
 
 ▸ **prependOnceListener**(`event`: \"data\", `listener`: (chunk: any) => void): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[prependOnceListener](#prependoncelistener)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[prependOnceListener](_sha3_shake256_.shake256stream.md#prependoncelistener)*
 
 *Overrides void*
 
@@ -1404,7 +1390,7 @@ Name | Type |
 
 ▸ **prependOnceListener**(`event`: \"end\", `listener`: () => void): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[prependOnceListener](#prependoncelistener)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[prependOnceListener](_sha3_shake256_.shake256stream.md#prependoncelistener)*
 
 *Overrides void*
 
@@ -1421,7 +1407,7 @@ Name | Type |
 
 ▸ **prependOnceListener**(`event`: \"error\", `listener`: (err: Error) => void): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[prependOnceListener](#prependoncelistener)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[prependOnceListener](_sha3_shake256_.shake256stream.md#prependoncelistener)*
 
 *Overrides void*
 
@@ -1438,7 +1424,7 @@ Name | Type |
 
 ▸ **prependOnceListener**(`event`: \"pause\", `listener`: () => void): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[prependOnceListener](#prependoncelistener)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[prependOnceListener](_sha3_shake256_.shake256stream.md#prependoncelistener)*
 
 *Overrides void*
 
@@ -1455,7 +1441,7 @@ Name | Type |
 
 ▸ **prependOnceListener**(`event`: \"readable\", `listener`: () => void): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[prependOnceListener](#prependoncelistener)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[prependOnceListener](_sha3_shake256_.shake256stream.md#prependoncelistener)*
 
 *Overrides void*
 
@@ -1472,7 +1458,7 @@ Name | Type |
 
 ▸ **prependOnceListener**(`event`: \"resume\", `listener`: () => void): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[prependOnceListener](#prependoncelistener)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[prependOnceListener](_sha3_shake256_.shake256stream.md#prependoncelistener)*
 
 *Overrides void*
 
@@ -1489,7 +1475,7 @@ Name | Type |
 
 ▸ **prependOnceListener**(`event`: string \| symbol, `listener`: (...args: any[]) => void): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[prependOnceListener](#prependoncelistener)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[prependOnceListener](_sha3_shake256_.shake256stream.md#prependoncelistener)*
 
 *Overrides void*
 
@@ -1510,7 +1496,7 @@ ___
 
 ▸ **push**(`chunk`: any, `encoding?`: BufferEncoding): boolean
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[push](#push)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[push](_sha3_shake256_.shake256stream.md#push)*
 
 *Defined in node_modules/@types/node/stream.d.ts:46*
 
@@ -1529,7 +1515,7 @@ ___
 
 ▸ **rawListeners**(`event`: string \| symbol): Function[]
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[rawListeners](#rawlisteners)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[rawListeners](_sha3_shake256_.shake256stream.md#rawlisteners)*
 
 *Defined in node_modules/@types/node/events.d.ts:71*
 
@@ -1547,7 +1533,7 @@ ___
 
 ▸ **read**(`size?`: undefined \| number): any
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[read](#read)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[read](_sha3_shake256_.shake256stream.md#read)*
 
 *Defined in node_modules/@types/node/stream.d.ts:38*
 
@@ -1565,7 +1551,7 @@ ___
 
 ▸ **removeAllListeners**(`event?`: string \| symbol): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[removeAllListeners](#removealllisteners)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[removeAllListeners](_sha3_shake256_.shake256stream.md#removealllisteners)*
 
 *Defined in node_modules/@types/node/events.d.ts:67*
 
@@ -1583,7 +1569,7 @@ ___
 
 ▸ **removeListener**(`event`: \"close\", `listener`: () => void): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[removeListener](#removelistener)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[removeListener](_sha3_shake256_.shake256stream.md#removelistener)*
 
 *Overrides void*
 
@@ -1600,7 +1586,7 @@ Name | Type |
 
 ▸ **removeListener**(`event`: \"data\", `listener`: (chunk: any) => void): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[removeListener](#removelistener)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[removeListener](_sha3_shake256_.shake256stream.md#removelistener)*
 
 *Overrides void*
 
@@ -1617,7 +1603,7 @@ Name | Type |
 
 ▸ **removeListener**(`event`: \"end\", `listener`: () => void): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[removeListener](#removelistener)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[removeListener](_sha3_shake256_.shake256stream.md#removelistener)*
 
 *Overrides void*
 
@@ -1634,7 +1620,7 @@ Name | Type |
 
 ▸ **removeListener**(`event`: \"error\", `listener`: (err: Error) => void): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[removeListener](#removelistener)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[removeListener](_sha3_shake256_.shake256stream.md#removelistener)*
 
 *Overrides void*
 
@@ -1651,7 +1637,7 @@ Name | Type |
 
 ▸ **removeListener**(`event`: \"pause\", `listener`: () => void): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[removeListener](#removelistener)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[removeListener](_sha3_shake256_.shake256stream.md#removelistener)*
 
 *Overrides void*
 
@@ -1668,7 +1654,7 @@ Name | Type |
 
 ▸ **removeListener**(`event`: \"readable\", `listener`: () => void): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[removeListener](#removelistener)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[removeListener](_sha3_shake256_.shake256stream.md#removelistener)*
 
 *Overrides void*
 
@@ -1685,7 +1671,7 @@ Name | Type |
 
 ▸ **removeListener**(`event`: \"resume\", `listener`: () => void): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[removeListener](#removelistener)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[removeListener](_sha3_shake256_.shake256stream.md#removelistener)*
 
 *Overrides void*
 
@@ -1702,7 +1688,7 @@ Name | Type |
 
 ▸ **removeListener**(`event`: string \| symbol, `listener`: (...args: any[]) => void): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[removeListener](#removelistener)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[removeListener](_sha3_shake256_.shake256stream.md#removelistener)*
 
 *Overrides void*
 
@@ -1723,7 +1709,7 @@ ___
 
 ▸ **resume**(): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[resume](#resume)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[resume](_sha3_shake256_.shake256stream.md#resume)*
 
 *Defined in node_modules/@types/node/stream.d.ts:41*
 
@@ -1735,7 +1721,7 @@ ___
 
 ▸ **setDefaultEncoding**(`encoding`: BufferEncoding): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[setDefaultEncoding](#setdefaultencoding)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[setDefaultEncoding](_sha3_shake256_.shake256stream.md#setdefaultencoding)*
 
 *Defined in node_modules/@types/node/stream.d.ts:261*
 
@@ -1753,7 +1739,7 @@ ___
 
 ▸ **setEncoding**(`encoding`: BufferEncoding): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[setEncoding](#setencoding)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[setEncoding](_sha3_shake256_.shake256stream.md#setencoding)*
 
 *Defined in node_modules/@types/node/stream.d.ts:39*
 
@@ -1771,7 +1757,7 @@ ___
 
 ▸ **setMaxListeners**(`n`: number): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[setMaxListeners](#setmaxlisteners)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[setMaxListeners](_sha3_shake256_.shake256stream.md#setmaxlisteners)*
 
 *Defined in node_modules/@types/node/events.d.ts:68*
 
@@ -1789,7 +1775,7 @@ ___
 
 ▸ **uncork**(): void
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[uncork](#uncork)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[uncork](_sha3_shake256_.shake256stream.md#uncork)*
 
 *Defined in node_modules/@types/node/stream.d.ts:266*
 
@@ -1801,7 +1787,7 @@ ___
 
 ▸ **unpipe**(`destination?`: NodeJS.WritableStream): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[unpipe](#unpipe)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[unpipe](_sha3_shake256_.shake256stream.md#unpipe)*
 
 *Defined in node_modules/@types/node/stream.d.ts:43*
 
@@ -1819,7 +1805,7 @@ ___
 
 ▸ **unshift**(`chunk`: any, `encoding?`: BufferEncoding): void
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[unshift](#unshift)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[unshift](_sha3_shake256_.shake256stream.md#unshift)*
 
 *Defined in node_modules/@types/node/stream.d.ts:44*
 
@@ -1838,7 +1824,7 @@ ___
 
 ▸ **wrap**(`oldStream`: ReadableStream): this
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[wrap](#wrap)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[wrap](_sha3_shake256_.shake256stream.md#wrap)*
 
 *Defined in node_modules/@types/node/stream.d.ts:45*
 
@@ -1856,7 +1842,7 @@ ___
 
 ▸ **write**(`chunk`: any, `encoding?`: BufferEncoding, `cb?`: undefined \| (error: Error \| null \| undefined) => void): boolean
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[write](#write)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[write](_sha3_shake256_.shake256stream.md#write)*
 
 *Defined in node_modules/@types/node/stream.d.ts:259*
 
@@ -1872,7 +1858,7 @@ Name | Type |
 
 ▸ **write**(`chunk`: any, `cb?`: undefined \| (error: Error \| null \| undefined) => void): boolean
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[write](#write)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[write](_sha3_shake256_.shake256stream.md#write)*
 
 *Defined in node_modules/@types/node/stream.d.ts:260*
 
@@ -1891,7 +1877,7 @@ ___
 
 ▸ `Static`**from**(`iterable`: Iterable\<any> \| AsyncIterable\<any>, `options?`: ReadableOptions): Readable
 
-*Inherited from [Shake256Stream](#classes_sha3_shake256_shake256streammd).[from](#from)*
+*Inherited from [Shake256Stream](_sha3_shake256_.shake256stream.md).[from](_sha3_shake256_.shake256stream.md#from)*
 
 *Defined in node_modules/@types/node/stream.d.ts:26*
 
@@ -1905,158 +1891,3 @@ Name | Type |
 `options?` | ReadableOptions |
 
 **Returns:** Readable
-
-
-<a name="globalsmd"></a>
-
-**[sha3-shake256](#readmemd)**
-
-> Globals
-
-# sha3-shake256
-
-## Index
-
-### Modules
-
-* ["index"](#modules_index_md)
-* ["sha3-shake256"](#modules_sha3_shake256_md)
-
-
-<a name="modules_index_md"></a>
-
-**[sha3-shake256](#readmemd)**
-
-> [Globals](#globalsmd) / "index"
-
-# Module: "index"
-
-## Index
-
-### References
-
-* [Shake256Stream](#shake256stream)
-* [adsorb](#adsorb)
-* [asyncShake256](#asyncshake256)
-* [finalize](#finalize)
-* [initState](#initstate)
-* [releaseState](#releasestate)
-* [shake256](#shake256)
-* [squeeze](#squeeze)
-* [syncShake256](#syncshake256)
-
-## References
-
-### Shake256Stream
-
-Re-exports: [Shake256Stream](#classes_sha3_shake256_shake256streammd)
-
-___
-
-### adsorb
-
-Re-exports: adsorb
-
-___
-
-### asyncShake256
-
-Re-exports: [asyncShake256](#asyncshake256)
-
-___
-
-### finalize
-
-Re-exports: finalize
-
-___
-
-### initState
-
-Re-exports: initState
-
-___
-
-### releaseState
-
-Re-exports: releaseState
-
-___
-
-### shake256
-
-Re-exports: [shake256](#shake256)
-
-___
-
-### squeeze
-
-Re-exports: squeeze
-
-___
-
-### syncShake256
-
-Re-exports: syncShake256
-
-
-<a name="modules_sha3_shake256_md"></a>
-
-**[sha3-shake256](#readmemd)**
-
-> [Globals](#globalsmd) / "sha3-shake256"
-
-# Module: "sha3-shake256"
-
-## Index
-
-### Classes
-
-* [Shake256Stream](#classes_sha3_shake256_shake256streammd)
-
-### Functions
-
-* [asyncShake256](#asyncshake256)
-* [shake256](#shake256)
-
-## Functions
-
-### asyncShake256
-
-▸ **asyncShake256**(`input`: Buffer, `hashLength?`: number): Promise\<Buffer>
-
-*Defined in [src/sha3-shake256.ts:24](https://github.com/aellison5505/node-sha3-shake256/blob/deea335/src/sha3-shake256.ts#L24)*
-
-Hashes a message and returns a promise.
-
-#### Parameters:
-
-Name | Type | Default value | Description |
------- | ------ | ------ | ------ |
-`input` | Buffer | - | message to hash |
-`hashLength` | number | 32 | length of returned hash |
-
-**Returns:** Promise\<Buffer>
-
-promise Buffer
-
-___
-
-### shake256
-
-▸ **shake256**(`input`: Buffer, `hashLength?`: number): Buffer
-
-*Defined in [src/sha3-shake256.ts:11](https://github.com/aellison5505/node-sha3-shake256/blob/deea335/src/sha3-shake256.ts#L11)*
-
-Hashes a message and returns a buffer.
-
-#### Parameters:
-
-Name | Type | Default value | Description |
------- | ------ | ------ | ------ |
-`input` | Buffer | - | message to hash |
-`hashLength` | number | 32 | length of returned hash |
-
-**Returns:** Buffer
-
-Buffer
