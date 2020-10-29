@@ -1,8 +1,10 @@
 /// <reference types="node" />
 import { Transform, TransformOptions, TransformCallback } from 'stream';
-export declare class Sha3Shake256Stream extends Transform {
+export declare function asyncShake256(input: Buffer, hashLength?: number): Promise<Buffer>;
+export declare class Shake256Stream extends Transform {
+    private hashLength;
     private _initState;
-    constructor(options: TransformOptions);
+    constructor(hashLength?: number, options?: TransformOptions);
     private _init;
     private _clearState;
     _destroy(): void;

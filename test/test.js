@@ -1,4 +1,4 @@
-const { syncShake256, initState, releaseState , adsorb, finalize, squeeze, Sha3Shake256Stream } = require('../lib/index');
+const { syncShake256, asyncShake256, initState, releaseState , adsorb, finalize, squeeze, Shake256Stream } = require('../lib/index');
 const { Readable, pipeline } = require('stream');
 const { promisify } = require('util');
 const asyncPipe = promisify(pipeline);
@@ -17,6 +17,19 @@ describe('node-sha3-shake256', () => {
         });
         it('should return correct hash', () => {
             expect(this.ret.toString('hex')).to.be
+            .equal("51bdaccf2d521b71a0c548eea62033ece1b0e720ae7b904bb640a8199b36ed84");
+        });
+    });
+
+    describe('#asyncShake256', () => {
+        before(async () => {
+            this.asyncRetBuffer = await asyncShake256(this.strBuff);
+        });
+        it('should return buffer', () => {
+            expect(this.asyncRetBuffer.length).to.be.equal(32);
+        });
+        it('should return correct hash', () => {
+            expect(this.asyncRetBuffer.toString('hex')).to.be
             .equal("51bdaccf2d521b71a0c548eea62033ece1b0e720ae7b904bb640a8199b36ed84");
         });
     });
@@ -75,10 +88,10 @@ describe('node-sha3-shake256', () => {
             });
         });
 
-        describe('Shake256 Stream', () => {
+        describe('Shake256Stream', () => {
             before(async () => {
                this.writeStream =  Readable.from(this.strBuff);
-                this.streamHash = new Sha3Shake256Stream();
+                this.streamHash = new Shake256Stream();
                 this.streamBuff = [];
                 this.streamHash.on("readable", () => {
                     let data;
