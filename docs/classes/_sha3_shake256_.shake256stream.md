@@ -97,7 +97,7 @@ The read data is the hash.
 
 *Overrides void*
 
-*Defined in [src/sha3-shake256.ts:38](https://github.com/aellison5505/node-sha3-shake256/blob/deea335/src/sha3-shake256.ts#L38)*
+*Defined in [src/sha3-shake256.ts:38](https://github.com/aellison5505/node-sha3-shake256/blob/e7c105e/src/sha3-shake256.ts#L38)*
 
 Creates a nodejs stream instance that hashes a message.
 The read data is the hash.
@@ -119,7 +119,7 @@ Name | Type | Default value | Description |
 
 • `Private` **\_initState**: Buffer
 
-*Defined in [src/sha3-shake256.ts:38](https://github.com/aellison5505/node-sha3-shake256/blob/deea335/src/sha3-shake256.ts#L38)*
+*Defined in [src/sha3-shake256.ts:38](https://github.com/aellison5505/node-sha3-shake256/blob/e7c105e/src/sha3-shake256.ts#L38)*
 
 ___
 
@@ -137,7 +137,7 @@ ___
 
 • `Private` **hashLength**: number
 
-*Defined in [src/sha3-shake256.ts:49](https://github.com/aellison5505/node-sha3-shake256/blob/deea335/src/sha3-shake256.ts#L49)*
+*Defined in [src/sha3-shake256.ts:49](https://github.com/aellison5505/node-sha3-shake256/blob/e7c105e/src/sha3-shake256.ts#L49)*
 
 length of returned hash
 
@@ -299,7 +299,7 @@ ___
 
 ▸ `Private`**_clearState**(): void
 
-*Defined in [src/sha3-shake256.ts:59](https://github.com/aellison5505/node-sha3-shake256/blob/deea335/src/sha3-shake256.ts#L59)*
+*Defined in [src/sha3-shake256.ts:59](https://github.com/aellison5505/node-sha3-shake256/blob/e7c105e/src/sha3-shake256.ts#L59)*
 
 **Returns:** void
 
@@ -311,7 +311,7 @@ ___
 
 *Overrides void*
 
-*Defined in [src/sha3-shake256.ts:64](https://github.com/aellison5505/node-sha3-shake256/blob/deea335/src/sha3-shake256.ts#L64)*
+*Defined in [src/sha3-shake256.ts:64](https://github.com/aellison5505/node-sha3-shake256/blob/e7c105e/src/sha3-shake256.ts#L64)*
 
 **Returns:** void
 
@@ -323,7 +323,7 @@ ___
 
 *Overrides void*
 
-*Defined in [src/sha3-shake256.ts:70](https://github.com/aellison5505/node-sha3-shake256/blob/deea335/src/sha3-shake256.ts#L70)*
+*Defined in [src/sha3-shake256.ts:70](https://github.com/aellison5505/node-sha3-shake256/blob/e7c105e/src/sha3-shake256.ts#L70)*
 
 #### Parameters:
 
@@ -357,7 +357,7 @@ ___
 
 ▸ `Private`**_init**(): void
 
-*Defined in [src/sha3-shake256.ts:54](https://github.com/aellison5505/node-sha3-shake256/blob/deea335/src/sha3-shake256.ts#L54)*
+*Defined in [src/sha3-shake256.ts:54](https://github.com/aellison5505/node-sha3-shake256/blob/e7c105e/src/sha3-shake256.ts#L54)*
 
 **Returns:** void
 
@@ -387,7 +387,7 @@ ___
 
 *Overrides void*
 
-*Defined in [src/sha3-shake256.ts:89](https://github.com/aellison5505/node-sha3-shake256/blob/deea335/src/sha3-shake256.ts#L89)*
+*Defined in [src/sha3-shake256.ts:89](https://github.com/aellison5505/node-sha3-shake256/blob/e7c105e/src/sha3-shake256.ts#L89)*
 
 #### Parameters:
 

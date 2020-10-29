@@ -21,7 +21,7 @@
 
 ▸ **asyncShake256**(`input`: Buffer, `hashLength?`: number): Promise\<Buffer>
 
-*Defined in [src/sha3-shake256.ts:24](https://github.com/aellison5505/node-sha3-shake256/blob/deea335/src/sha3-shake256.ts#L24)*
+*Defined in [src/sha3-shake256.ts:24](https://github.com/aellison5505/node-sha3-shake256/blob/e7c105e/src/sha3-shake256.ts#L24)*
 
 Hashes a message and returns a promise.
 
@@ -42,7 +42,7 @@ ___
 
 ▸ **shake256**(`input`: Buffer, `hashLength?`: number): Buffer
 
-*Defined in [src/sha3-shake256.ts:11](https://github.com/aellison5505/node-sha3-shake256/blob/deea335/src/sha3-shake256.ts#L11)*
+*Defined in [src/sha3-shake256.ts:11](https://github.com/aellison5505/node-sha3-shake256/blob/e7c105e/src/sha3-shake256.ts#L11)*
 
 Hashes a message and returns a buffer.
 

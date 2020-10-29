@@ -1,4 +1,3 @@
-
 <a name="readmemd"></a>
 
 **[sha3-shake256](#readmemd)**
@@ -9,6 +8,34 @@
 [![Build Status](https://travis-ci.com/aellison5505/node-sha3-shake256.svg?branch=main)](https://travis-ci.com/aellison5505/node-sha3-shake256)
 Fips202 Sha3 Shake256 hash from buffer or stream.
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [node-sha3-shake256](#node-sha3-shake256)
+- [Classes](#classes)
+  - [Class: Shake256Stream](#class-shake256stream)
+    - [Hierarchy](#hierarchy)
+    - [Implements](#implements)
+    - [Index](#index)
+    - [Constructors](#constructors)
+    - [Properties](#properties)
+    - [Methods](#methods)
+- [sha3-shake256](#sha3-shake256)
+  - [Index](#index-1)
+    - [Modules](#modules)
+- [Modules](#modules-1)
+  - [Module: "index"](#module-index)
+    - [Index](#index-2)
+    - [References](#references)
+  - [Module: "sha3-shake256"](#module-sha3-shake256)
+    - [Index](#index-3)
+    - [Functions](#functions)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+# Classes
+
 
 <a name="classes_sha3_shake256_shake256streammd"></a>
 
@@ -16,29 +43,29 @@ Fips202 Sha3 Shake256 hash from buffer or stream.
 
 > [Globals](#globalsmd) / ["sha3-shake256"](#modules_sha3_shake256_md) / Shake256Stream
 
-# Class: Shake256Stream
+## Class: Shake256Stream
 
 Creates a nodejs stream instance that hashes a message.
 The read data is the hash.
 
-## Hierarchy
+### Hierarchy
 
 * Transform
 
   ↳ **Shake256Stream**
 
-## Implements
+### Implements
 
 * ReadableStream
 * Writable
 
-## Index
+### Index
 
-### Constructors
+#### Constructors
 
 * [constructor](#constructor)
 
-### Properties
+#### Properties
 
 * [\_initState](#_initstate)
 * [destroyed](#destroyed)
@@ -58,7 +85,7 @@ The read data is the hash.
 * [writableLength](#writablelength)
 * [writableObjectMode](#writableobjectmode)
 
-### Methods
+#### Methods
 
 * [[Symbol.asyncIterator]](_sha3_shake256_.shake256stream.md#[symbol.asynciterator])
 * [\_clearState](#_clearstate)
@@ -103,22 +130,22 @@ The read data is the hash.
 * [write](#write)
 * [from](#from)
 
-## Constructors
+### Constructors
 
-### constructor
+#### constructor
 
 \+ **new Shake256Stream**(`hashLength?`: number, `options?`: TransformOptions): [Shake256Stream](#classes_sha3_shake256_shake256streammd)
 
 *Overrides void*
 
-*Defined in [src/sha3-shake256.ts:38](https://github.com/aellison5505/node-sha3-shake256/blob/deea335/src/sha3-shake256.ts#L38)*
+*Defined in [src/sha3-shake256.ts:38](https://github.com/aellison5505/node-sha3-shake256/blob/e7c105e/src/sha3-shake256.ts#L38)*
 
 Creates a nodejs stream instance that hashes a message.
 The read data is the hash.
 
 **`emits`** readable
 
-#### Parameters:
+##### Parameters:
 
 Name | Type | Default value | Description |
 ------ | ------ | ------ | ------ |
@@ -127,17 +154,17 @@ Name | Type | Default value | Description |
 
 **Returns:** [Shake256Stream](#classes_sha3_shake256_shake256streammd)
 
-## Properties
+### Properties
 
-### \_initState
+#### \_initState
 
 • `Private` **\_initState**: Buffer
 
-*Defined in [src/sha3-shake256.ts:38](https://github.com/aellison5505/node-sha3-shake256/blob/deea335/src/sha3-shake256.ts#L38)*
+*Defined in [src/sha3-shake256.ts:38](https://github.com/aellison5505/node-sha3-shake256/blob/e7c105e/src/sha3-shake256.ts#L38)*
 
 ___
 
-### destroyed
+#### destroyed
 
 •  **destroyed**: boolean
 
@@ -147,17 +174,17 @@ ___
 
 ___
 
-### hashLength
+#### hashLength
 
 • `Private` **hashLength**: number
 
-*Defined in [src/sha3-shake256.ts:49](https://github.com/aellison5505/node-sha3-shake256/blob/deea335/src/sha3-shake256.ts#L49)*
+*Defined in [src/sha3-shake256.ts:49](https://github.com/aellison5505/node-sha3-shake256/blob/e7c105e/src/sha3-shake256.ts#L49)*
 
 length of returned hash
 
 ___
 
-### readable
+#### readable
 
 •  **readable**: boolean
 
@@ -167,7 +194,7 @@ ___
 
 ___
 
-### readableEncoding
+#### readableEncoding
 
 • `Readonly` **readableEncoding**: BufferEncoding \| null
 
@@ -177,7 +204,7 @@ ___
 
 ___
 
-### readableEnded
+#### readableEnded
 
 • `Readonly` **readableEnded**: boolean
 
@@ -187,7 +214,7 @@ ___
 
 ___
 
-### readableFlowing
+#### readableFlowing
 
 • `Readonly` **readableFlowing**: boolean \| null
 
@@ -197,7 +224,7 @@ ___
 
 ___
 
-### readableHighWaterMark
+#### readableHighWaterMark
 
 • `Readonly` **readableHighWaterMark**: number
 
@@ -207,7 +234,7 @@ ___
 
 ___
 
-### readableLength
+#### readableLength
 
 • `Readonly` **readableLength**: number
 
@@ -217,7 +244,7 @@ ___
 
 ___
 
-### readableObjectMode
+#### readableObjectMode
 
 • `Readonly` **readableObjectMode**: boolean
 
@@ -227,7 +254,7 @@ ___
 
 ___
 
-### writable
+#### writable
 
 • `Readonly` **writable**: boolean
 
@@ -237,7 +264,7 @@ ___
 
 ___
 
-### writableCorked
+#### writableCorked
 
 • `Readonly` **writableCorked**: number
 
@@ -247,7 +274,7 @@ ___
 
 ___
 
-### writableEnded
+#### writableEnded
 
 • `Readonly` **writableEnded**: boolean
 
@@ -257,7 +284,7 @@ ___
 
 ___
 
-### writableFinished
+#### writableFinished
 
 • `Readonly` **writableFinished**: boolean
 
@@ -267,7 +294,7 @@ ___
 
 ___
 
-### writableHighWaterMark
+#### writableHighWaterMark
 
 • `Readonly` **writableHighWaterMark**: number
 
@@ -277,7 +304,7 @@ ___
 
 ___
 
-### writableLength
+#### writableLength
 
 • `Readonly` **writableLength**: number
 
@@ -287,7 +314,7 @@ ___
 
 ___
 
-### writableObjectMode
+#### writableObjectMode
 
 • `Readonly` **writableObjectMode**: boolean
 
@@ -295,9 +322,9 @@ ___
 
 *Defined in node_modules/@types/node/stream.d.ts:252*
 
-## Methods
+### Methods
 
-### [Symbol.asyncIterator]
+#### [Symbol.asyncIterator]
 
 ▸ **[Symbol.asyncIterator]**(): AsyncIterableIterator\<any>
 
@@ -309,37 +336,37 @@ ___
 
 ___
 
-### \_clearState
+#### \_clearState
 
 ▸ `Private`**_clearState**(): void
 
-*Defined in [src/sha3-shake256.ts:59](https://github.com/aellison5505/node-sha3-shake256/blob/deea335/src/sha3-shake256.ts#L59)*
+*Defined in [src/sha3-shake256.ts:59](https://github.com/aellison5505/node-sha3-shake256/blob/e7c105e/src/sha3-shake256.ts#L59)*
 
 **Returns:** void
 
 ___
 
-### \_destroy
+#### \_destroy
 
 ▸ **_destroy**(): void
 
 *Overrides void*
 
-*Defined in [src/sha3-shake256.ts:64](https://github.com/aellison5505/node-sha3-shake256/blob/deea335/src/sha3-shake256.ts#L64)*
+*Defined in [src/sha3-shake256.ts:64](https://github.com/aellison5505/node-sha3-shake256/blob/e7c105e/src/sha3-shake256.ts#L64)*
 
 **Returns:** void
 
 ___
 
-### \_final
+#### \_final
 
 ▸ **_final**(`callback`: TransformCallback): void
 
 *Overrides void*
 
-*Defined in [src/sha3-shake256.ts:70](https://github.com/aellison5505/node-sha3-shake256/blob/deea335/src/sha3-shake256.ts#L70)*
+*Defined in [src/sha3-shake256.ts:70](https://github.com/aellison5505/node-sha3-shake256/blob/e7c105e/src/sha3-shake256.ts#L70)*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -349,7 +376,7 @@ Name | Type |
 
 ___
 
-### \_flush
+#### \_flush
 
 ▸ **_flush**(`callback`: TransformCallback): void
 
@@ -357,7 +384,7 @@ ___
 
 *Defined in node_modules/@types/node/stream.d.ts:284*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -367,17 +394,17 @@ Name | Type |
 
 ___
 
-### \_init
+#### \_init
 
 ▸ `Private`**_init**(): void
 
-*Defined in [src/sha3-shake256.ts:54](https://github.com/aellison5505/node-sha3-shake256/blob/deea335/src/sha3-shake256.ts#L54)*
+*Defined in [src/sha3-shake256.ts:54](https://github.com/aellison5505/node-sha3-shake256/blob/e7c105e/src/sha3-shake256.ts#L54)*
 
 **Returns:** void
 
 ___
 
-### \_read
+#### \_read
 
 ▸ **_read**(`size`: number): void
 
@@ -385,7 +412,7 @@ ___
 
 *Defined in node_modules/@types/node/stream.d.ts:37*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -395,15 +422,15 @@ Name | Type |
 
 ___
 
-### \_transform
+#### \_transform
 
 ▸ **_transform**(`chunk`: Buffer, `encoding`: BufferEncoding, `callback`: TransformCallback): void
 
 *Overrides void*
 
-*Defined in [src/sha3-shake256.ts:89](https://github.com/aellison5505/node-sha3-shake256/blob/deea335/src/sha3-shake256.ts#L89)*
+*Defined in [src/sha3-shake256.ts:89](https://github.com/aellison5505/node-sha3-shake256/blob/e7c105e/src/sha3-shake256.ts#L89)*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -415,7 +442,7 @@ Name | Type |
 
 ___
 
-### \_write
+#### \_write
 
 ▸ **_write**(`chunk`: any, `encoding`: BufferEncoding, `callback`: (error?: Error \| null) => void): void
 
@@ -423,7 +450,7 @@ ___
 
 *Defined in node_modules/@types/node/stream.d.ts:255*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -435,7 +462,7 @@ Name | Type |
 
 ___
 
-### \_writev
+#### \_writev
 
 ▸ `Optional`**_writev**(`chunks`: Array\<{ chunk: any ; encoding: BufferEncoding  }>, `callback`: (error?: Error \| null) => void): void
 
@@ -443,7 +470,7 @@ ___
 
 *Defined in node_modules/@types/node/stream.d.ts:256*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -454,7 +481,7 @@ Name | Type |
 
 ___
 
-### addListener
+#### addListener
 
 ▸ **addListener**(`event`: \"close\", `listener`: () => void): this
 
@@ -474,7 +501,7 @@ The defined events on documents including:
 6. readable
 7. resume
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -491,7 +518,7 @@ Name | Type |
 
 *Defined in node_modules/@types/node/stream.d.ts:62*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -508,7 +535,7 @@ Name | Type |
 
 *Defined in node_modules/@types/node/stream.d.ts:63*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -525,7 +552,7 @@ Name | Type |
 
 *Defined in node_modules/@types/node/stream.d.ts:64*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -542,7 +569,7 @@ Name | Type |
 
 *Defined in node_modules/@types/node/stream.d.ts:65*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -559,7 +586,7 @@ Name | Type |
 
 *Defined in node_modules/@types/node/stream.d.ts:66*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -576,7 +603,7 @@ Name | Type |
 
 *Defined in node_modules/@types/node/stream.d.ts:67*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -593,7 +620,7 @@ Name | Type |
 
 *Defined in node_modules/@types/node/stream.d.ts:68*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -604,7 +631,7 @@ Name | Type |
 
 ___
 
-### cork
+#### cork
 
 ▸ **cork**(): void
 
@@ -616,7 +643,7 @@ ___
 
 ___
 
-### destroy
+#### destroy
 
 ▸ **destroy**(`error?`: Error): void
 
@@ -624,7 +651,7 @@ ___
 
 *Defined in node_modules/@types/node/stream.d.ts:48*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -634,7 +661,7 @@ Name | Type |
 
 ___
 
-### emit
+#### emit
 
 ▸ **emit**(`event`: \"close\"): boolean
 
@@ -644,7 +671,7 @@ ___
 
 *Defined in node_modules/@types/node/stream.d.ts:70*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -660,7 +687,7 @@ Name | Type |
 
 *Defined in node_modules/@types/node/stream.d.ts:71*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -677,7 +704,7 @@ Name | Type |
 
 *Defined in node_modules/@types/node/stream.d.ts:72*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -693,7 +720,7 @@ Name | Type |
 
 *Defined in node_modules/@types/node/stream.d.ts:73*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -710,7 +737,7 @@ Name | Type |
 
 *Defined in node_modules/@types/node/stream.d.ts:74*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -726,7 +753,7 @@ Name | Type |
 
 *Defined in node_modules/@types/node/stream.d.ts:75*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -742,7 +769,7 @@ Name | Type |
 
 *Defined in node_modules/@types/node/stream.d.ts:76*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -758,7 +785,7 @@ Name | Type |
 
 *Defined in node_modules/@types/node/stream.d.ts:77*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -769,7 +796,7 @@ Name | Type |
 
 ___
 
-### end
+#### end
 
 ▸ **end**(`cb?`: undefined \| () => void): void
 
@@ -777,7 +804,7 @@ ___
 
 *Defined in node_modules/@types/node/stream.d.ts:262*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -791,7 +818,7 @@ Name | Type |
 
 *Defined in node_modules/@types/node/stream.d.ts:263*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -806,7 +833,7 @@ Name | Type |
 
 *Defined in node_modules/@types/node/stream.d.ts:264*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -818,7 +845,7 @@ Name | Type |
 
 ___
 
-### eventNames
+#### eventNames
 
 ▸ **eventNames**(): Array\<string \| symbol>
 
@@ -830,7 +857,7 @@ ___
 
 ___
 
-### getMaxListeners
+#### getMaxListeners
 
 ▸ **getMaxListeners**(): number
 
@@ -842,7 +869,7 @@ ___
 
 ___
 
-### isPaused
+#### isPaused
 
 ▸ **isPaused**(): boolean
 
@@ -854,7 +881,7 @@ ___
 
 ___
 
-### listenerCount
+#### listenerCount
 
 ▸ **listenerCount**(`event`: string \| symbol): number
 
@@ -862,7 +889,7 @@ ___
 
 *Defined in node_modules/@types/node/events.d.ts:73*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -872,7 +899,7 @@ Name | Type |
 
 ___
 
-### listeners
+#### listeners
 
 ▸ **listeners**(`event`: string \| symbol): Function[]
 
@@ -880,7 +907,7 @@ ___
 
 *Defined in node_modules/@types/node/events.d.ts:70*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -890,7 +917,7 @@ Name | Type |
 
 ___
 
-### off
+#### off
 
 ▸ **off**(`event`: string \| symbol, `listener`: (...args: any[]) => void): this
 
@@ -898,7 +925,7 @@ ___
 
 *Defined in node_modules/@types/node/events.d.ts:66*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -909,7 +936,7 @@ Name | Type |
 
 ___
 
-### on
+#### on
 
 ▸ **on**(`event`: \"close\", `listener`: () => void): this
 
@@ -919,7 +946,7 @@ ___
 
 *Defined in node_modules/@types/node/stream.d.ts:79*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -936,7 +963,7 @@ Name | Type |
 
 *Defined in node_modules/@types/node/stream.d.ts:80*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -953,7 +980,7 @@ Name | Type |
 
 *Defined in node_modules/@types/node/stream.d.ts:81*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -970,7 +997,7 @@ Name | Type |
 
 *Defined in node_modules/@types/node/stream.d.ts:82*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -987,7 +1014,7 @@ Name | Type |
 
 *Defined in node_modules/@types/node/stream.d.ts:83*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -1004,7 +1031,7 @@ Name | Type |
 
 *Defined in node_modules/@types/node/stream.d.ts:84*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -1021,7 +1048,7 @@ Name | Type |
 
 *Defined in node_modules/@types/node/stream.d.ts:85*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -1038,7 +1065,7 @@ Name | Type |
 
 *Defined in node_modules/@types/node/stream.d.ts:86*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -1049,7 +1076,7 @@ Name | Type |
 
 ___
 
-### once
+#### once
 
 ▸ **once**(`event`: \"close\", `listener`: () => void): this
 
@@ -1059,7 +1086,7 @@ ___
 
 *Defined in node_modules/@types/node/stream.d.ts:88*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -1076,7 +1103,7 @@ Name | Type |
 
 *Defined in node_modules/@types/node/stream.d.ts:89*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -1093,7 +1120,7 @@ Name | Type |
 
 *Defined in node_modules/@types/node/stream.d.ts:90*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -1110,7 +1137,7 @@ Name | Type |
 
 *Defined in node_modules/@types/node/stream.d.ts:91*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -1127,7 +1154,7 @@ Name | Type |
 
 *Defined in node_modules/@types/node/stream.d.ts:92*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -1144,7 +1171,7 @@ Name | Type |
 
 *Defined in node_modules/@types/node/stream.d.ts:93*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -1161,7 +1188,7 @@ Name | Type |
 
 *Defined in node_modules/@types/node/stream.d.ts:94*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -1178,7 +1205,7 @@ Name | Type |
 
 *Defined in node_modules/@types/node/stream.d.ts:95*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -1189,7 +1216,7 @@ Name | Type |
 
 ___
 
-### pause
+#### pause
 
 ▸ **pause**(): this
 
@@ -1201,7 +1228,7 @@ ___
 
 ___
 
-### pipe
+#### pipe
 
 ▸ **pipe**\<T>(`destination`: T, `options?`: undefined \| { end?: undefined \| false \| true  }): T
 
@@ -1209,13 +1236,13 @@ ___
 
 *Defined in node_modules/@types/node/stream.d.ts:5*
 
-#### Type parameters:
+##### Type parameters:
 
 Name | Type |
 ------ | ------ |
 `T` | WritableStream |
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -1226,7 +1253,7 @@ Name | Type |
 
 ___
 
-### prependListener
+#### prependListener
 
 ▸ **prependListener**(`event`: \"close\", `listener`: () => void): this
 
@@ -1236,7 +1263,7 @@ ___
 
 *Defined in node_modules/@types/node/stream.d.ts:97*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -1253,7 +1280,7 @@ Name | Type |
 
 *Defined in node_modules/@types/node/stream.d.ts:98*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -1270,7 +1297,7 @@ Name | Type |
 
 *Defined in node_modules/@types/node/stream.d.ts:99*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -1287,7 +1314,7 @@ Name | Type |
 
 *Defined in node_modules/@types/node/stream.d.ts:100*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -1304,7 +1331,7 @@ Name | Type |
 
 *Defined in node_modules/@types/node/stream.d.ts:101*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -1321,7 +1348,7 @@ Name | Type |
 
 *Defined in node_modules/@types/node/stream.d.ts:102*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -1338,7 +1365,7 @@ Name | Type |
 
 *Defined in node_modules/@types/node/stream.d.ts:103*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -1355,7 +1382,7 @@ Name | Type |
 
 *Defined in node_modules/@types/node/stream.d.ts:104*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -1366,7 +1393,7 @@ Name | Type |
 
 ___
 
-### prependOnceListener
+#### prependOnceListener
 
 ▸ **prependOnceListener**(`event`: \"close\", `listener`: () => void): this
 
@@ -1376,7 +1403,7 @@ ___
 
 *Defined in node_modules/@types/node/stream.d.ts:106*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -1393,7 +1420,7 @@ Name | Type |
 
 *Defined in node_modules/@types/node/stream.d.ts:107*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -1410,7 +1437,7 @@ Name | Type |
 
 *Defined in node_modules/@types/node/stream.d.ts:108*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -1427,7 +1454,7 @@ Name | Type |
 
 *Defined in node_modules/@types/node/stream.d.ts:109*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -1444,7 +1471,7 @@ Name | Type |
 
 *Defined in node_modules/@types/node/stream.d.ts:110*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -1461,7 +1488,7 @@ Name | Type |
 
 *Defined in node_modules/@types/node/stream.d.ts:111*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -1478,7 +1505,7 @@ Name | Type |
 
 *Defined in node_modules/@types/node/stream.d.ts:112*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -1495,7 +1522,7 @@ Name | Type |
 
 *Defined in node_modules/@types/node/stream.d.ts:113*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -1506,7 +1533,7 @@ Name | Type |
 
 ___
 
-### push
+#### push
 
 ▸ **push**(`chunk`: any, `encoding?`: BufferEncoding): boolean
 
@@ -1514,7 +1541,7 @@ ___
 
 *Defined in node_modules/@types/node/stream.d.ts:46*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -1525,7 +1552,7 @@ Name | Type |
 
 ___
 
-### rawListeners
+#### rawListeners
 
 ▸ **rawListeners**(`event`: string \| symbol): Function[]
 
@@ -1533,7 +1560,7 @@ ___
 
 *Defined in node_modules/@types/node/events.d.ts:71*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -1543,7 +1570,7 @@ Name | Type |
 
 ___
 
-### read
+#### read
 
 ▸ **read**(`size?`: undefined \| number): any
 
@@ -1551,7 +1578,7 @@ ___
 
 *Defined in node_modules/@types/node/stream.d.ts:38*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -1561,7 +1588,7 @@ Name | Type |
 
 ___
 
-### removeAllListeners
+#### removeAllListeners
 
 ▸ **removeAllListeners**(`event?`: string \| symbol): this
 
@@ -1569,7 +1596,7 @@ ___
 
 *Defined in node_modules/@types/node/events.d.ts:67*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -1579,7 +1606,7 @@ Name | Type |
 
 ___
 
-### removeListener
+#### removeListener
 
 ▸ **removeListener**(`event`: \"close\", `listener`: () => void): this
 
@@ -1589,7 +1616,7 @@ ___
 
 *Defined in node_modules/@types/node/stream.d.ts:115*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -1606,7 +1633,7 @@ Name | Type |
 
 *Defined in node_modules/@types/node/stream.d.ts:116*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -1623,7 +1650,7 @@ Name | Type |
 
 *Defined in node_modules/@types/node/stream.d.ts:117*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -1640,7 +1667,7 @@ Name | Type |
 
 *Defined in node_modules/@types/node/stream.d.ts:118*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -1657,7 +1684,7 @@ Name | Type |
 
 *Defined in node_modules/@types/node/stream.d.ts:119*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -1674,7 +1701,7 @@ Name | Type |
 
 *Defined in node_modules/@types/node/stream.d.ts:120*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -1691,7 +1718,7 @@ Name | Type |
 
 *Defined in node_modules/@types/node/stream.d.ts:121*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -1708,7 +1735,7 @@ Name | Type |
 
 *Defined in node_modules/@types/node/stream.d.ts:122*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -1719,7 +1746,7 @@ Name | Type |
 
 ___
 
-### resume
+#### resume
 
 ▸ **resume**(): this
 
@@ -1731,7 +1758,7 @@ ___
 
 ___
 
-### setDefaultEncoding
+#### setDefaultEncoding
 
 ▸ **setDefaultEncoding**(`encoding`: BufferEncoding): this
 
@@ -1739,7 +1766,7 @@ ___
 
 *Defined in node_modules/@types/node/stream.d.ts:261*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -1749,7 +1776,7 @@ Name | Type |
 
 ___
 
-### setEncoding
+#### setEncoding
 
 ▸ **setEncoding**(`encoding`: BufferEncoding): this
 
@@ -1757,7 +1784,7 @@ ___
 
 *Defined in node_modules/@types/node/stream.d.ts:39*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -1767,7 +1794,7 @@ Name | Type |
 
 ___
 
-### setMaxListeners
+#### setMaxListeners
 
 ▸ **setMaxListeners**(`n`: number): this
 
@@ -1775,7 +1802,7 @@ ___
 
 *Defined in node_modules/@types/node/events.d.ts:68*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -1785,7 +1812,7 @@ Name | Type |
 
 ___
 
-### uncork
+#### uncork
 
 ▸ **uncork**(): void
 
@@ -1797,7 +1824,7 @@ ___
 
 ___
 
-### unpipe
+#### unpipe
 
 ▸ **unpipe**(`destination?`: NodeJS.WritableStream): this
 
@@ -1805,7 +1832,7 @@ ___
 
 *Defined in node_modules/@types/node/stream.d.ts:43*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -1815,7 +1842,7 @@ Name | Type |
 
 ___
 
-### unshift
+#### unshift
 
 ▸ **unshift**(`chunk`: any, `encoding?`: BufferEncoding): void
 
@@ -1823,7 +1850,7 @@ ___
 
 *Defined in node_modules/@types/node/stream.d.ts:44*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -1834,7 +1861,7 @@ Name | Type |
 
 ___
 
-### wrap
+#### wrap
 
 ▸ **wrap**(`oldStream`: ReadableStream): this
 
@@ -1842,7 +1869,7 @@ ___
 
 *Defined in node_modules/@types/node/stream.d.ts:45*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -1852,7 +1879,7 @@ Name | Type |
 
 ___
 
-### write
+#### write
 
 ▸ **write**(`chunk`: any, `encoding?`: BufferEncoding, `cb?`: undefined \| (error: Error \| null \| undefined) => void): boolean
 
@@ -1860,7 +1887,7 @@ ___
 
 *Defined in node_modules/@types/node/stream.d.ts:259*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -1876,7 +1903,7 @@ Name | Type |
 
 *Defined in node_modules/@types/node/stream.d.ts:260*
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -1887,7 +1914,7 @@ Name | Type |
 
 ___
 
-### from
+#### from
 
 ▸ `Static`**from**(`iterable`: Iterable\<any> \| AsyncIterable\<any>, `options?`: ReadableOptions): Readable
 
@@ -1897,7 +1924,7 @@ ___
 
 A utility method for creating Readable Streams out of iterators.
 
-#### Parameters:
+##### Parameters:
 
 Name | Type |
 ------ | ------ |
@@ -1922,6 +1949,8 @@ Name | Type |
 * ["index"](#modules_index_md)
 * ["sha3-shake256"](#modules_sha3_shake256_md)
 
+# Modules
+
 
 <a name="modules_index_md"></a>
 
@@ -1929,75 +1958,33 @@ Name | Type |
 
 > [Globals](#globalsmd) / "index"
 
-# Module: "index"
+## Module: "index"
 
-## Index
+### Index
+
+#### References
+
+* [Shake256Stream](#shake256stream)
+* [asyncShake256](#asyncshake256)
+* [shake256](#shake256)
 
 ### References
 
-* [Shake256Stream](#shake256stream)
-* [adsorb](#adsorb)
-* [asyncShake256](#asyncshake256)
-* [finalize](#finalize)
-* [initState](#initstate)
-* [releaseState](#releasestate)
-* [shake256](#shake256)
-* [squeeze](#squeeze)
-* [syncShake256](#syncshake256)
-
-## References
-
-### Shake256Stream
+#### Shake256Stream
 
 Re-exports: [Shake256Stream](#classes_sha3_shake256_shake256streammd)
 
 ___
 
-### adsorb
-
-Re-exports: adsorb
-
-___
-
-### asyncShake256
+#### asyncShake256
 
 Re-exports: [asyncShake256](#asyncshake256)
 
 ___
 
-### finalize
-
-Re-exports: finalize
-
-___
-
-### initState
-
-Re-exports: initState
-
-___
-
-### releaseState
-
-Re-exports: releaseState
-
-___
-
-### shake256
+#### shake256
 
 Re-exports: [shake256](#shake256)
-
-___
-
-### squeeze
-
-Re-exports: squeeze
-
-___
-
-### syncShake256
-
-Re-exports: syncShake256
 
 
 <a name="modules_sha3_shake256_md"></a>
@@ -2006,30 +1993,30 @@ Re-exports: syncShake256
 
 > [Globals](#globalsmd) / "sha3-shake256"
 
-# Module: "sha3-shake256"
+## Module: "sha3-shake256"
 
-## Index
+### Index
 
-### Classes
+#### Classes
 
 * [Shake256Stream](#classes_sha3_shake256_shake256streammd)
 
-### Functions
+#### Functions
 
 * [asyncShake256](#asyncshake256)
 * [shake256](#shake256)
 
-## Functions
+### Functions
 
-### asyncShake256
+#### asyncShake256
 
 ▸ **asyncShake256**(`input`: Buffer, `hashLength?`: number): Promise\<Buffer>
 
-*Defined in [src/sha3-shake256.ts:24](https://github.com/aellison5505/node-sha3-shake256/blob/deea335/src/sha3-shake256.ts#L24)*
+*Defined in [src/sha3-shake256.ts:24](https://github.com/aellison5505/node-sha3-shake256/blob/e7c105e/src/sha3-shake256.ts#L24)*
 
 Hashes a message and returns a promise.
 
-#### Parameters:
+##### Parameters:
 
 Name | Type | Default value | Description |
 ------ | ------ | ------ | ------ |
@@ -2042,15 +2029,15 @@ promise Buffer
 
 ___
 
-### shake256
+#### shake256
 
 ▸ **shake256**(`input`: Buffer, `hashLength?`: number): Buffer
 
-*Defined in [src/sha3-shake256.ts:11](https://github.com/aellison5505/node-sha3-shake256/blob/deea335/src/sha3-shake256.ts#L11)*
+*Defined in [src/sha3-shake256.ts:11](https://github.com/aellison5505/node-sha3-shake256/blob/e7c105e/src/sha3-shake256.ts#L11)*
 
 Hashes a message and returns a buffer.
 
-#### Parameters:
+##### Parameters:
 
 Name | Type | Default value | Description |
 ------ | ------ | ------ | ------ |
