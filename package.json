@@ -4,15 +4,15 @@
   "description": "fips202 Sha3 Shake256 hash from buffer or stream.",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha --timeout 10000",
+    "test": "mocha --timeout 30000",
     "build": "tsc",
     "tsc-w": "tsc -w",
     "build-docs": "touch ./readme.md && rm ./readme.md && npx typedoc --toc --excludeNotExported --includeDeclarations --excludeExternals --mode modules --theme markdown --out /mnt/d/dev/node-sha3-shake256/docs --readme /mnt/d/dev/node-sha3-shake256/readmeHeader/readhead.md /mnt/d/dev/node-sha3-shake256/src && npx concat-md --toc --decrease-title-levels --dir-name-as-title ./docs > README.md",
-    "preinstall": "npm run cmake-clean",
-    "postinstall": "npm run test",
-    "cmake-clean": "npx cmake-js clean && node scripts/clean.js",
-    "cmake-compile": "npx cmake-js compile && node scripts/move.js",
-    "install": "npm run cmake-compile"
+    "preinstall": "yarn run cmake-clean",
+    "postinstall": "yarn run test",
+    "cmake-clean": "yarn cmake-js clean && node scripts/clean.js",
+    "cmake-compile": "yarn cmake-js compile && node scripts/move.js",
+    "install": "yarn run cmake-compile && yarn run build"
   },
   "repository": {
     "type": "git",
@@ -38,5 +38,6 @@
     "typedoc": "^0.19.2",
     "typedoc-plugin-markdown": "^3.0.11",
     "typescript": "^4.0.5"
-  }
+  },
+  "packageManager": "yarn@3.2.1"
 }

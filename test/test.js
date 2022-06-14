@@ -113,7 +113,9 @@ describe('node-sha3-shake256', () => {
                         this.streamBuff.push(data);
                     }
                 });
-                await asyncPipe(this.writeStream, this.streamHash);
+               
+                asyncPipe(this.writeStream, this.streamHash)
+                .then(() => done())
             });
             it('should return correct Hash', () => {
                 expect(Buffer.concat(this.streamBuff).toString('hex')).to.be

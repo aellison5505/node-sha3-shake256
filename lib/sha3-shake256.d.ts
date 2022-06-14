@@ -1,4 +1,5 @@
 /// <reference types="node" />
+/// <reference types="node" />
 import { Transform, TransformOptions, TransformCallback } from 'stream';
 /**
  * Hashes a message and returns a buffer.
