@@ -12,7 +12,7 @@
     "postinstall": "yarn run test",
     "cmake-clean": "yarn cmake-js clean && node scripts/clean.js",
     "cmake-compile": "yarn cmake-js compile && node scripts/move.js",
-    "install": "yarn run cmake-compile && yarn run build"
+    "install": "yarn run cmake-compile"
   },
   "repository": {
     "type": "git",
