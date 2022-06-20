@@ -1,4 +1,5 @@
 version: 2.1
+
 jobs:
   build-and-test:
     docker:
@@ -33,7 +34,7 @@ jobs:
           command: yarn test
 
 workflows:
-  build_test:
+  build+test:
     jobs:
       - build-and-test
   
