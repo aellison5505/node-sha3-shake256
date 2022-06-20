@@ -39,10 +39,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^14.14.5":
-  version: 14.18.21
-  resolution: "@types/node@npm:14.18.21"
-  checksum: 4ed35b76609647a4e36a194702e31cdda9ed42174ddaf7937bc5498984e98a99e8a42ea895ea17dd9c5ec18080112c29ab670c34f90eb9f7a4703b85b31e34fa
+"@types/node@npm:^16":
+  version: 16.11.41
+  resolution: "@types/node@npm:16.11.41"
+  checksum: 808e4d65757bb13cf25e88dfa4e65880efef06652b04baecb051eb90cf090dda9812aa3505b31e963a48041eed7dbe0fc59c44c7c5e117da952ff951bf3a584a
   languageName: node
   linkType: hard
 
@@ -1989,7 +1989,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "sha3-shake256@workspace:."
   dependencies:
-    "@types/node": ^14.14.5
+    "@types/node": ^16
     chai: ^4.2.0
     cmake-js: ^6.1.0
     mocha: ^8.2.0

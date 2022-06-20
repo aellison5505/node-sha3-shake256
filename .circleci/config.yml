@@ -1,0 +1,40 @@
+version: 2.1
+
+jobs:
+  build-and-test:
+    docker:
+      - image: node:current-alpine3.16 
+    steps:
+      # Checkout the code as the first step.
+      - checkout
+      - run:
+          name: update os
+          command: apk update upgrade
+      - run:
+          name: upgrade
+          command: apk upgrade
+      - run:
+          name: add build
+          command: apk add openssh build-base cmake git
+      - restore_cache:
+          name: Restore Yarn Package Cache
+          keys:
+            - yarn-packages-{{ checksum "yarn.lock" }}
+      - run:
+          name: Install Dependencies
+          command: yarn install --immutable
+      - save_cache:
+          name: Save Yarn Package Cache
+          key: yarn-packages-{{ checksum "yarn.lock" }}
+          paths:
+            - .yarn/cache
+            - .yarn/unplugged
+      - run:
+          name: Run tests
+          command: yarn test
+
+workflows:
+  build_test:
+    jobs:
+      - build-and-test
+  
